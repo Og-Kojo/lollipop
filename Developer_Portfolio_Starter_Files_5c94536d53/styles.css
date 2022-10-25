@@ -47,7 +47,7 @@ p{
 	padding:20px 31px;
 	text-decoration:none;
 	text-shadow:0 0 0 #ffee6b;
-  margin-right: 8.5rem;
+  /* margin-right: 3.5rem; */
 }
 .myButton:hover {
 	background-color:#ebf060;
@@ -252,11 +252,19 @@ margin-top: 3.5em;
 
 
 .logos img{
-  display: inline-block;
+  display:inline-block;
   /* min-width: 20px; */
   min-height: 1px;
-  margin: 0.5rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
   width: 5rem;
+}
+
+.logos{
+  display: block;
+  height: 100px;
+  width: 350px;
+  margin-left: 8rem;
 }
 
 /* .logos{
@@ -337,11 +345,28 @@ margin-top: 3.5em;
 .logos img{
   display: inline-block;
   /* min-width: 20px; */
-  min-height: 1px;
-  margin: 0.5rem;
+  min-height: 2px;
+  margin-bottom: 1.3rem;
   width: 5rem;
+  height: 20px;
+
+}
+.logos{
+  display: block;
+  height: 120px;
+  width: 200px;
+  margin-left: 8rem;
 }
 
+.column1{
+  float: left;
+ width: 50%;
+}
+
+.column2{
+  float: right;
+ width: 50%;
+}
 
 
 
